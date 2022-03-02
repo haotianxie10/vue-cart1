@@ -1,9 +1,11 @@
 <template>
-  <div class="header-container">标题</div>
+  <div class="header-container">
+    <img class="logo1" src="@/assets/logo1.png" alt="" />
+  </div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style lang="less" scoped>
@@ -11,7 +13,7 @@ export default {}
   font-size: 12px;
   height: 45px;
   width: 100%;
-  background-color: #1d7bff;
+  background-color: #3a3230;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,5 +21,8 @@ export default {}
   position: fixed;
   top: 0;
   z-index: 999;
+}
+.logo1 {
+  height: 45px;
 }
 </style>
